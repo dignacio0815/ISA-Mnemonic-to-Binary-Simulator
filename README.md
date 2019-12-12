@@ -1,6 +1,9 @@
 # ISA-Mnemonic-to-Binary-Simulator
 #Architecture/Summary:
 #Create a mnemonic code of MARIE instructions in a text file (sum.coria) which would be read by the assembler file #(assembler.cpp) to transform the mnemonic code into binary code which is stored in a text file (sum.bin). The binary code is #read by the simulator file (simulator.cpp) which will be executed to show the results in the console.
+
+
+
 | Opcode | Key |                       Summary                        |       Example         |
 |--------|-----|------------------------------------------------------|---------              |
 |  PUT   |0011 |Input an integer into a register                      |PUT 1 R1               |
@@ -24,6 +27,10 @@
 |--------|-----|------------------------------------------------------|-----------------------|
 |SUBT    |1011 |Subtracts two registers and stores it into a register |SUBT R5 R4 R3          |
 |--------|-----|------------------------------------------------------|-----------------------|
+
+
+
+
 #PUT Opcode: 
 #When inputting values, make sure to have an integer followed by a register. For example, PUT 1 R1 would make R1 equal to the #integer 1.
 
