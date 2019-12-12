@@ -19,6 +19,28 @@ Create a mnemonic code of MARIE instructions in a text file (sum.coria) which wo
 
 
 
+When using our designed ISA, we only have a total of 10 registers. The registers start from R1, R2, R3, R4, R5, R6, R7, R8, A1, A2.
+
+R1’s binary is “000”
+
+R2’s binary is “001”
+
+R3’s binary is “010”
+
+R4’s binary is “011”
+
+R5’s binary is “100”
+
+R6’s binary is “101”
+
+R7’s binary is “110”
+
+R8’s binary is “111”
+
+A1’s binary is “000”
+
+A2’s binary is “111”
+
 
 **PUT Opcode:** 
 When inputting values, make sure to have an integer followed by a register. For example, PUT 1 R1 would make R1 equal to the integer 1.
