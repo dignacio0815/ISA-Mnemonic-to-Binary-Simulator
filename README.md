@@ -5,6 +5,7 @@ Create a mnemonic code of MARIE instructions in a text file (sum.coria) which wo
 
 
 | Opcode | Key |                       Summary                        |       Example         |
+| --- | --- | --- | --- |
 |  PUT   |0011 |Input an integer into a register                      |PUT 1 R1               |
 |  SUM   |0101 |Add the values into the registers and stored into the desired register  |SUM R1 R2 R3           |
 |  OUT   |1111 | Outputs the value of the desired register            |OUT R3                 |
